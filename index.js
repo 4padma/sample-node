@@ -6,13 +6,6 @@ const { text } = require('express');
 
 const app = express();
 
-// sgMail.setApiKey('IZOrI8WaS0GF8jaLCupF8A');
-
-const sendgrid_username = 'santhosh';
-    const sendgrid_password = 'Password@123';
-    //var sendgrid = require('sendgrid')(sendgrid_username, sendgrid_password);
-    // const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey('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');
 
 app.use(cors());
 
